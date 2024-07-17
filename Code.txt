@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Title</title>
+    <style>
+        body {
+            margin: 0;
+            background: white;
+            font-family: Arial, sans-serif;
+        }
+        main {
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .navbar ul {
+            list-style-type: none;
+            background-color: lightblue;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+        .navbar li {
+            float: right;
+        }
+        footer {
+            background: linear-gradient(to right, lightblue, blue);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: white;
+            margin: 0 10px;
+        }
+        .img {
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+            color: aqua;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            margin-left: -200px;
+            margin-bottom: 90px;
+        }
+        .image {
+            width: 100px;
+            height: auto;
+        }
+        .text {
+            margin-left: 150px;
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nav-item {
+            padding: 12px;
+            margin-right: 10px;
+            border-right: 1px solid;
+        }
+        .nav-item:last-child {
+            border-right: none;
+        }
+        .navbar li.home {
+            background-color: blue;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="nav-item">Contact</li>
+            <li class="nav-item">Projects</li>
+            <li class="nav-item">About Me</li>
+            <li class="nav-item home">Home</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img src="Preeti Bindigari.jpg" alt="Profile Image" width="750" height="600">
+        <div>
+            <h2 class="text">Hi, I am Preeti Bindigari.</h2>
+            <p class="text">I am a Full stack developer, currently studying B.Tech (CSE AI ML) final year.</p>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <a href="#"><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/1024px-F_icon.svg.png" alt="Facebook"></a>
+            <a href="#"><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/292px-Logo_of_Twitter.svg.png" alt="Twitter"></a>
+            <a href="#"><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/1024px-Linkedin_icon.svg.png" alt="LinkedIn"></a>
+            <a href="#"><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png" alt="Instagram"></a>
+            <a href="#"><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png" alt="GitHub"></a>
+            <a href="#"><img class="img" src="https://fonts.gstatic.com/s/i/productlogos/googleg/v6/24px.svg" alt="Google"></a>
+            <p>&copy; Gradious Technologies (P) Ltd. 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
